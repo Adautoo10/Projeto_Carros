@@ -93,7 +93,7 @@
             this.btnFechar.BackColor = System.Drawing.SystemColors.MenuText;
             this.btnFechar.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFechar.ForeColor = System.Drawing.Color.White;
-            this.btnFechar.Location = new System.Drawing.Point(1040, 870);
+            this.btnFechar.Location = new System.Drawing.Point(997, 588);
             this.btnFechar.Name = "btnFechar";
             this.btnFechar.Size = new System.Drawing.Size(137, 41);
             this.btnFechar.TabIndex = 106;
@@ -556,7 +556,7 @@
             this.btnRemover.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnRemover.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRemover.ForeColor = System.Drawing.Color.White;
-            this.btnRemover.Location = new System.Drawing.Point(833, 870);
+            this.btnRemover.Location = new System.Drawing.Point(817, 588);
             this.btnRemover.Name = "btnRemover";
             this.btnRemover.Size = new System.Drawing.Size(137, 41);
             this.btnRemover.TabIndex = 112;
