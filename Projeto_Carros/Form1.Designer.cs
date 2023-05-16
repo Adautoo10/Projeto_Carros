@@ -85,6 +85,7 @@
             this.cmb_Cor = new System.Windows.Forms.ComboBox();
             this.txt_marca = new System.Windows.Forms.TextBox();
             this.cmbTipo = new System.Windows.Forms.ComboBox();
+            this.importar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_carros)).BeginInit();
             this.SuspendLayout();
             // 
@@ -705,6 +706,18 @@
             this.cmbTipo.Size = new System.Drawing.Size(376, 24);
             this.cmbTipo.TabIndex = 120;
             // 
+            // importar
+            // 
+            this.importar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.importar.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.importar.ForeColor = System.Drawing.Color.White;
+            this.importar.Location = new System.Drawing.Point(341, 588);
+            this.importar.Name = "importar";
+            this.importar.Size = new System.Drawing.Size(137, 41);
+            this.importar.TabIndex = 121;
+            this.importar.Text = "Importar Dados";
+            this.importar.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -712,6 +725,7 @@
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.ClientSize = new System.Drawing.Size(1200, 923);
             this.ControlBox = false;
+            this.Controls.Add(this.importar);
             this.Controls.Add(this.cmbTipo);
             this.Controls.Add(this.txt_marca);
             this.Controls.Add(this.cmb_Cor);
@@ -821,6 +835,7 @@
         private System.Windows.Forms.ComboBox cmb_Cor;
         private System.Windows.Forms.TextBox txt_marca;
         private System.Windows.Forms.ComboBox cmbTipo;
+        private System.Windows.Forms.Button importar;
     }
 }
 
